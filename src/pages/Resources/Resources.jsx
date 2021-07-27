@@ -5,6 +5,7 @@ import Footer from "components/Footer";
 import Tabs from "components/Tabs";
 import Home from "assets/home.svg";
 import TwitterLogo from "assets/twitter-logo.svg";
+import EmailIcon from "assets/email.svg";
 import Banner from "components/Banner/Banner";
 import BannerBg from "assets/woman-typing.jpg";
 
@@ -73,7 +74,8 @@ const TABS = [
         </li>
         <li>
           <a href="/citba-static/Trade Practice Areas.pdf">
-            CITBA’s summary of International Trade practice areas for young lawyers and law students
+            CITBA’s summary of International Trade practice areas for young
+            lawyers and law students
           </a>
         </li>
       </ul>
@@ -125,6 +127,17 @@ const TABS = [
         <li>
           Under Secretary of Commerce for International Trade –{" "}
           <a href="http://twitter.com/TradeUnderSec">@TradeUnderSec</a>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Contact Us",
+    icon: EmailIcon,
+    content: (
+      <ul>
+        <li>
+          <a href="mailto:info@citba.org">info@citba.org</a>
         </li>
       </ul>
     ),
